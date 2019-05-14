@@ -370,6 +370,9 @@ ins.adsbygoogle {
 	.entry-excerpt {
 		font-size: 14px;
 	}
+	.pad {
+		padding:15px 5px !important;
+	}
 }
 @media only screen and (max-width: 479px) {
 	.entry-list .entry-title {
@@ -381,7 +384,10 @@ ins.adsbygoogle {
 	}
 	.entry-excerpt {
 		font-size: 12px;
-	}	
+	}
+	.pad {
+		padding:15px 5px !important;
+	}
 }	
 @media print {
 	#nav-topbar.nav-container{
