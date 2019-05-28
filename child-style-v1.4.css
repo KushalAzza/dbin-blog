@@ -35,8 +35,7 @@ body .extendedwopts-show{display:none}body .widgetopts-hide_title .widget-title{
 .site-title a img{max-height:60px!important;}
 .slant-onleft{-webkit-transform:rotate(4deg);-moz-transform:rotate(4deg);-ms-transform:rotate(4deg);-o-transform:rotate(4deg);transform:rotate(4deg);}
 .slant-onright{-webkit-transform:rotate(-4deg);-moz-transform:rotate(-4deg);-ms-transform:rotate(-4deg);-o-transform:rotate(-4deg);transform:rotate(-4deg);}
-.themeform input[type="checkbox"]{margin:18px;}
-.themeform input[type="submit"], .themeform button[type="submit"]	
+.themeform input[type="checkbox"]{margin:18px;}	
 #footer-bottom .pad{padding-top:50px;padding-bottom:40px;}
 #footer-bottom .one-half.last{margin-bottom:0;}
 #footer-bottom{text-align:center;}
@@ -194,7 +193,9 @@ margin-bottom: 0px;
 	text-align: center;
 	font-weight: bold;
 }
-.themeform input[type="submit"], .themeform button[type="submit"]
+.themeform input[type="submit"], .themeform button[type="submit"] { 
+	margin-top: 20px;
+}
 .post-head-title {
 	position: relative;
 	width: 82%;
